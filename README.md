@@ -18,7 +18,7 @@ With this limitation, I picked a publicly available dataset from [UCI repository
 First we have to see how many missing values are (which were coded as “?” for most variables in the data):
 
 `for col in df.columns:`<br>
-    if df[col].dtype == object:
+ &nbsp;`if df[col].dtype == object:`
          print(col,df[col][df[col] == '?'].count())
 # gender was coded differently so we use a custom count for this one
 print('gender', df['gender'][df['gender'] == 'Unknown/Invalid'].count())`
