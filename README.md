@@ -55,6 +55,8 @@ The model accuracy (with cross validation) is 61% (i.e. Classification error of 
 
 With 91% accuracy, it's much improved in all metrics compared to logistic regression. Note that there are several model parameters for fine-tuning such as depth of tree, minimum sample size and type of information gain function (gini vs entropy) etc. One should ideally implement a grid search to find the optimal parameters for best performance (assuming the computation isn’t taking too much time).
 
+![](./images/pic4.png)
+
 3. Random Forests:
 
 Forests are made of up trees. Random forests are made up of randomly grown trees. In machine learning lingo, this method means that instead of relying on a single decision tree, we try many different trees with randomly assigned subsets of features. The final prediction is then calculated by voting across predictions made by all the trees in the forest. 
