@@ -60,6 +60,12 @@ With 91% accuracy, it's much improved in all metrics compared to logistic regres
 Forests are made of up trees. Random forests are made up of randomly grown trees. In machine learning lingo, this method means that instead of relying on a single decision tree, we try many different trees with randomly assigned subsets of features. The final prediction is then calculated by voting across predictions made by all the trees in the forest. 
 After applying Random Forest, the accuracy was 94% regardless of using Gini or Entropy function.
 
+![](./images/pic2.png)
+
+Same accuracy (94%) for the simpler model, but the top feature importances differed slightly compared to the complex model:
+
+![](./images/pic3.png)
+
 #### The conclusion:
 
 The decision tree model indicates highest importance of time spent in hospital, age and discharge to another hospital for both simple and complex versions. For random forest ensemble, the same features had high importance, although the distribution was more even as compared to decision tree. This is likely due to stabilization of importances across many trees.
