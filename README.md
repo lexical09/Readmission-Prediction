@@ -23,7 +23,7 @@ Before we can get to actual modeling, some wrangling with the data is almost alw
 
 ### Feature sets for modeling 
 While there are many possible combinations of features one could test for, I wanted to test two versions — one relatively complex model containing detailed features and a simpler one with fewer and some composite features I had created e.g. number of inpatient, outpatient and emergency visits were included in complex feature set, and replaced with composite feature (service utilization) in the simple feature set. Both sets are shown below.
-![](./images/pic1)
+![](./images/pic1.png)
 
 ### Selecting models
 Our choice of models is governed primarily by our aim to understand the most important factors, along with their relative effects on medication change and readmission. Thus, while model accuracy is important, model interpretability in order to devise corrective measures is a key criterion for our model selection. The models that we implemented include:
